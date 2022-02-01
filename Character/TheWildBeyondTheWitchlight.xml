@@ -61,3 +61,67 @@
     <text>Source: The Wild Beyond the Witchlight: pg. 13</text>
   </trait>
 </race>
+<background>
+  <name>Feylost</name>
+  <proficiency>Deception, Survival</proficiency>
+  <trait>
+    <name>Skill Proficiencies</name>
+    <text>Deception, Survival</text>
+  </trait>
+  <trait>
+    <name>Tool Proficiencies</name>
+    <text>One type of musical instrument</text>
+  </trait>
+  <trait>
+    <name>Languages</name>
+    <text>One of your choice of Elvish, Gnomish, Goblin, or Sylvan</text>
+  </trait>
+  <trait>
+    <name>Equipment</name>
+    <text>A musical instrument (one of your choice), a set of traveler's clothes, three trinkets (each determined by rolling on the Feywild Trinkets table), and pouch contained 8 gp.</text>
+  </trait>
+  </trait>
+  <trait>
+    <name>Fey Mark</name>
+    <text>You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table.</text>
+  </trait>
+  </trait>
+  <trait>
+    <name>Feywild Visitor</name>
+    <text>Whenever you're sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit's form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM's discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can't speak that language normally.</text>
+  </trait>
+  <trait>
+    <name>Feature: Feywild Connection</name>
+    <text>Your mannerisms and knowledge of fey customers are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost of need help in the Feywild.</text>
+  </trait>
+</background>
+<background>
+  <name>Witchlight Hand</name>
+  <proficiency>Performance, Sleight of Hand</proficiency>
+  <trait>
+    <name>Skill Proficiencies</name>
+    <text>Performance, Sleight of Hand</text>
+  </trait>
+  <trait>
+    <name>Tool Proficiencies</name>
+    <text>Disguise kit or one type of musical instrument</text>
+  </trait>
+  <trait>
+    <name>Languages</name>
+    <text>One of your choice</text>
+  </trait>
+  <trait>
+    <name>Equipment</name>
+    <text>A diguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp.</text>
+  </trait>
+  <trait>
+    <name>Carnival Companion</name>
+    <text>Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you've befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you're in the carnival, but it won't voluntarily leave the carnival.</text>
+    <text/>
+    <text>The DM can use the Witchlight hand stat block in chapter 1 to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the Monster Manual.</text>
+  </trait>
+  <trait>
+    <name>Feature: Carnival Fixture</name>
+    <text>The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake in its many wonders at no cost to you, provided you don't distrupt its shows or cause any other trouble.</text>
+  </trait>
+</background>
