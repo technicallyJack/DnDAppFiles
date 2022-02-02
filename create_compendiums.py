@@ -27,7 +27,7 @@ class XMLCombiner(object):
         try:
             return et.parse(filename)
         except:
-            print filename
+            print (filename)
             raise
 
     def combine_pruned(self, output):
@@ -49,7 +49,7 @@ class XMLCombiner(object):
         elements = [item[-1] for i, item in enumerate(items)
                     if not i or item[0] != items[i-1][0]]
 
-        print 'Removed %d duplicate(s)' % (len(items) - len(elements))
+        print ('Removed %d duplicate(s)' % (len(items) - len(elements)))
 
         self.roots[0][:] = elements
         return self.files[0].write(output, encoding='UTF-8')
