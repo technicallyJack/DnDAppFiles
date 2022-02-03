@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <compendium version="5">
-    <class>
-</class>
-<race>
+    <race>
 		<name>Aarakocra</name>
 		<size>M</size>
 		<speed>25</speed>

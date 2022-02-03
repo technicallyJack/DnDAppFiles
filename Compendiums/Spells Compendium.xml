@@ -12,8 +12,7 @@
     <duration>Instantaneous</duration>
     <classes>Sorcerer, Wizard</classes>
     <text>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</text>
-    <text />
-    <text>Nonmagical plants in the a rea that aren't creatures, such as trees and shrubs, wither and die instantly.</text>
+    <text>Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</text>
     <text>Source: XGTE pg. 150</text>
   </spell>
   <spell>
@@ -87,7 +86,7 @@
 		<range>30 feet</range>
 		<components>V, S, M (a tiny strip of white cloth)</components>
 		<duration>8 hours</duration>
-		<classes>Artificer, Cleric, Paladin</classes>
+		<classes>Artificer, Cleric, Cleric (Peace), Paladin</classes>
 		<text>Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.</text>
@@ -402,7 +401,7 @@
 		<range>Self (30-foot radius)</range>
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Paladin, Warlock (Undying)</classes>
+		<classes>Cleric, Cleric (Twilight), Paladin, Warlock (Undying)</classes>
 		<text>Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.</text>
 	</spell>
 	<spell>
@@ -413,7 +412,7 @@
 		<range>Self (30-foot radius)</range>
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Paladin</classes>
+		<classes>Cleric, Cleric (Peace), Paladin</classes>
 		<text>Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.</text>
 	</spell>
 	<spell>
@@ -424,7 +423,7 @@
 		<range>Self (30-foot radius)</range>
 		<components>V</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Paladin, Paladin (Crown)</classes>
+		<classes>Cleric, Cleric (Twilight), Paladin, Paladin (Crown)</classes>
 		<text>Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.</text>
 		<roll>2d6</roll>
 	</spell>
@@ -502,7 +501,7 @@
 		<range>30 feet</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Cleric, Cleric (Life), Paladin (Devotion)</classes>
+		<classes>Cleric, Cleric (Life), Cleric (Peace), Paladin (Devotion)</classes>
 		<text>This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.</text>
 	</spell>
 	<spell>
@@ -902,7 +901,7 @@
 		<range>Self (30-foot radius)</range>
 		<components>V</components>
 		<duration>Concentration, up to 10 minutes</duration>
-		<classes>Paladin, Paladin (Crown)</classes>
+		<classes>Cleric (Twilight), Paladin, Paladin (Crown)</classes>
 		<text>Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.</text>
 	</spell>
 	<spell>
@@ -989,7 +988,7 @@
 		<range>60 feet</range>
 		<components>V</components>
 		<duration>1 round</duration>
-		<classes>Cleric, Cleric (Knowledge), Paladin, Paladin (Crown), Warlock (Fiend)</classes>
+		<classes>Cleric, Cleric (Knowledge), Cleric (Order), Paladin, Paladin (Crown), Warlock (Fiend)</classes>
 		<text>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</text>
 		<text />
 		<text>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</text>
@@ -1015,7 +1014,7 @@
 		<range>Self</range>
 		<components>V, S, M (incense and a vial of holy or unholy water)</components>
 		<duration>1 minute</duration>
-		<classes>Cleric, Paladin (Devotion)</classes>
+		<classes>Cleric, Cleric (Order), Paladin (Devotion)</classes>
 		<text>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</text>
 		<text />
 		<text>Divine beings aren't necessarily omniscient, so you might receive "unclear" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</text>
@@ -1073,7 +1072,7 @@
 		<range>30 feet</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard</classes>
+		<classes>Bard, Cleric (Order)</classes>
 		<text>Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect.</text>
 		<text />
 		<text>A target isn't compelled to move into an obviously deadly hazard, such as a fire pit, but it will provoke opportunity attacks to move in the designated direction.</text>
@@ -1948,7 +1947,7 @@
 		<range>60 feet</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard, Cleric (Trickery), Paladin (Oathbreaker), Sorcerer, Warlock (Archfey), Warlock (Great Old One), Wizard, Rogue (Arcane Trickster)</classes>
+		<classes>Bard, Cleric (Order), Cleric (Trickery), Paladin (Oathbreaker), Sorcerer, Warlock (Archfey), Warlock (Great Old One), Wizard, Rogue (Arcane Trickster)</classes>
 		<text>You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.</text>
 		<text />
 		<text>While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as Attack that creature, Run over there, or Fetch that object. If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.</text>
@@ -2361,7 +2360,7 @@
 		<range>60 feet</range>
 		<components>V</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard, Cleric (Light), Druid, Seeker (Keymaster), Warlock (Archfey)</classes>
+		<classes>Bard, Cleric (Light), Cleric (Twilight), Druid, Seeker (Keymaster), Warlock (Archfey)</classes>
 		<text>Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.</text>
 		<text />
 		<text>Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.</text>
@@ -2967,7 +2966,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard, Druid (Underdark), Rogue (Arcane Trickster), Seeker (Secret Broker), Sorcerer, Warlock (Archfey), Wizard</classes>
+		<classes>Bard, Cleric (Twilight), Druid (Underdark), Rogue (Arcane Trickster), Seeker (Secret Broker), Sorcerer, Warlock (Archfey), Wizard</classes>
 		<text>You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.</text>
 	</spell>
 	<spell>
@@ -2978,7 +2977,7 @@
 		<range>Touch</range>
 		<components>V, S, M (diamond dust worth 100 gp, which the spell consumes)</components>
 		<duration>Instantaneous</duration>
-		<classes>Bard, Cleric, Druid, Seeker</classes>
+		<classes>Bard, Cleric, Cleric (Peace), Druid, Seeker</classes>
 		<text>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target.</text>
 		<text />
 		<text>• One effect that charmed or petrified the target</text>
@@ -3281,7 +3280,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard, Paladin</classes>
+		<classes>Bard, Cleric (Order), Cleric (Peace), Paladin</classes>
 		<text>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</text>
@@ -3324,7 +3323,7 @@
 		<range>60 feet</range>
 		<components>V, S, M (a small, straight piece of iron)</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Bard, Cleric, Druid, Druid (Arctic), Paladin (Vengeance), Seeker (Bloodhound), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster)</classes>
+		<classes>Bard, Cleric, Cleric (Order), Druid, Druid (Arctic), Paladin (Vengeance), Seeker (Bloodhound), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster)</classes>
 		<text>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</text>
@@ -3708,7 +3707,7 @@
 		<range>Self (10-foot-radius hemisphere)</range>
 		<components>V, S, M (a small crystal bead)</components>
 		<duration>8 hours</duration>
-		<classes>Bard, Fighter (Eldritch Knight), Seeker, Wizard</classes>
+		<classes>Bard, Cleric (Twilight), Fighter (Eldritch Knight), Seeker, Wizard</classes>
 		<text>A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.</text>
 		<text />
 		<text>Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.</text>
@@ -3824,7 +3823,7 @@
 		<range>Self</range>
 		<components>V, S, M (a bit of fur from a bloodhound)</components>
 		<duration>Concentration, up to 1 hour</duration>
-		<classes>Bard, Cleric, Druid, Druid (Swamp), Paladin, Ranger, Seeker, Wizard</classes>
+		<classes>Bard, Cleric, Cleric (Order), Druid, Druid (Swamp), Paladin, Ranger, Seeker, Wizard</classes>
 		<text>Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.</text>
 		<text />
 		<text>The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn't locate the creature.</text>
@@ -4056,7 +4055,7 @@
 		<range>60 feet</range>
 		<components>V</components>
 		<duration>Instantaneous</duration>
-		<classes>Cleric</classes>
+		<classes>Cleric, Cleric (Order)</classes>
 		<text>As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</text>
 		<text />
 		<text>At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.</text>
@@ -4279,7 +4278,7 @@
 		<range>Self</range>
 		<components>S</components>
 		<duration>Concentration, up to 1 hour</duration>
-		<classes>Bard, Rogue (Arcane Trickster), Seeker (Secret Broker), Wizard</classes>
+		<classes>Bard, Cleric (Twilight), Rogue (Arcane Trickster), Seeker (Secret Broker), Wizard</classes>
 		<text>You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.</text>
 		<text />
 		<text>You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose. You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.</text>
@@ -4345,7 +4344,7 @@
 		<range>120 feet</range>
 		<components>V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Druid, Paladin (Ancients)</classes>
+		<classes>Cleric (Twilight), Druid, Paladin (Ancients)</classes>
 		<text>A silvery beam of pale light shines down in a 5-foot radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.</text>
 		<text />
 		<text>When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.</text>
@@ -4506,7 +4505,7 @@
 		<range>30 feet</range>
 		<components>V, S, M (a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic)</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Artificer, Fighter (Eldritch Knight), Seeker, Wizard</classes>
+		<classes>Artificer, Cleric (Peace), Fighter (Eldritch Knight), Seeker, Wizard</classes>
 		<text>A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.</text>
 		<text />
 		<text>Nothing, not physical objects, energy, or other spell effects, can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</text>
@@ -4713,7 +4712,7 @@
 		<range>Touch</range>
 		<components>V, S</components>
 		<duration>Instantaneous</duration>
-		<classes>Bard</classes>
+		<classes>Bard, Cleric</classes>
 		<text>A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.</text>
 	</spell>
 	<spell>
@@ -5001,7 +5000,7 @@
 		<range>30 feet</range>
 		<components>V, S, M (pieces of eggshell from two different kinds of creatures)</components>
 		<duration>1 hour</duration>
-		<classes>Seeker, Wizard</classes>
+		<classes>Cleric (Peace), Seeker, Wizard</classes>
 		<text>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.</text>
 		<text />
 		<text>Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.</text>
@@ -5208,7 +5207,7 @@
 		<range>30 feet</range>
 		<components>V, S, M (a small silver mirror)</components>
 		<duration>1 minute</duration>
-		<classes>Artificer, Cleric, Paladin (Devotion)</classes>
+		<classes>Artificer, Cleric, Cleric (Peace), Paladin (Devotion)</classes>
 		<text>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a fireball.</text>
 		<text />
 		<text>If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</text>
@@ -5284,7 +5283,7 @@
 		<range>Self</range>
 		<components>V, S, M (A pinch of Talc and a small sprinkling of powdered silver)</components>
 		<duration>1 hour</duration>
-		<classes>Artificer, Bard, Seeker, Sorcerer, Wizard</classes>
+		<classes>Artificer, Bard, Cleric (Twilight), Seeker, Sorcerer, Wizard</classes>
 		<text>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</text>
 	</spell>
 	<spell>
@@ -5312,7 +5311,7 @@
 		<range>Unlimited</range>
 		<components>V, S, M (A short piece of fine copper wire)</components>
 		<duration>1 round</duration>
-		<classes>Cleric, Fighter (Eldritch Knight), Seeker, Warlock (Great Old One), Wizard</classes>
+		<classes>Cleric, Cleric (Peace), Fighter (Eldritch Knight), Seeker, Warlock (Great Old One), Wizard</classes>
 		<text>You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</text>
 		<text />
 		<text>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive.</text>
@@ -5534,7 +5533,7 @@
 		<range>90 feet</range>
 		<components>V, S, M (a pinch of find sand, rose petals, or a cricket)</components>
 		<duration>1 minute</duration>
-		<classes>Bard, Sorcerer, Warlock (Archfey), Wizard, Rogue (Arcane Trickster)</classes>
+		<classes>Bard, Cleric (Twilight), Sorcerer, Warlock (Archfey), Wizard, Rogue (Arcane Trickster)</classes>
 		<text>This spell sends creatures into a magical slumber. Roll 5d8, the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).</text>
 		<text />
 		<text>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</text>
@@ -5567,7 +5566,7 @@
 		<range>120 feet</range>
 		<components>V, S, M (a drop of molasses)</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Druid (Arctic), Seeker, Sorcerer, Wizard</classes>
+		<classes>Cleric (Order), Druid (Arctic), Seeker, Sorcerer, Wizard</classes>
 		<text>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</text>
 		<text />
 		<text>An affected target's speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</text>
@@ -5689,6 +5688,22 @@
 		<roll>3d8</roll>
 	</spell>
 	<spell>
+    <name>Spirit Shroud</name>
+    <level>3</level>
+    <school>N</school>
+    <time>1 bonus action</time>
+    <range>Self</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <classes>Cleric, Paladin, Warlock, Wizard</classes>
+    <text>You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.</text>
+    <text>Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.</text>
+    <text>In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 3rd.</text>
+    <text>Source: TCOE pg. 108</text>
+  </spell>
+  <spell>
 		<name>Spiritual Weapon</name>
 		<level>2</level>
 		<school>EV</school>
@@ -5820,6 +5835,21 @@
 		<text>If you or any of your companions damage the target, the spell ends.</text>
 	</spell>
 	<spell>
+    <name>Summon Celestial</name>
+    <level>5</level>
+    <school>C</school>
+    <time>1 action</time>
+    <range>90 feet</range>
+    <components>V, S, M (a gold reliquary worth at least 500 gp)</components>
+    <duration>Concentration, up to 1 hour</duration>
+    <classes>Cleric, Paladin</classes>
+    <text>You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the Celeslial Spirit stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</text>
+    <text>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block.</text>
+    <text>Source: TCOE pg. 110</text>
+  </spell>
+<spell>
 		<name>Sunbeam</name>
 		<level>6</level>
 		<school>EV</school>
@@ -5827,7 +5857,7 @@
 		<range>Self (60-foot line)</range>
 		<components>V, S, M (a magnifying glass)</components>
 		<duration>Concentration, up to 1 minute</duration>
-		<classes>Druid, Sorcerer, Wizard</classes>
+		<classes>Cleric, Druid, Sorcerer, Wizard</classes>
 		<text>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and oozes have disadvantage on this saving throw.</text>
 		<text />
 		<text>You can create a new line of radiance as your action on any turn until the spell ends.</text>
@@ -5843,7 +5873,7 @@
 		<range>150 feet</range>
 		<components>V, S, M (fire and a piece of sunstone)</components>
 		<duration>Instantaneous</duration>
-		<classes>Druid, Sorcerer, Wizard</classes>
+		<classes>Cleric, Druid, Sorcerer, Wizard</classes>
 		<text>Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 minute. On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and oozes have disadvantage on this saving throw.</text>
 		<text />
 		<text>A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.</text>
@@ -6497,7 +6527,7 @@
 		<range>Touch</range>
 		<components>V, S, M (a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration)</components>
 		<duration>1 hour</duration>
-		<classes>Cleric, Paladin (Crown)</classes>
+		<classes>Cleric, Cleric (Peace), Paladin (Crown)</classes>
 		<text>This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</text>
 		<text />
 		<text>The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.</text>
@@ -6731,7 +6761,7 @@
 		<range>60 feet</range>
 		<components>V, S, M</components>
 		<duration>10 minutes</duration>
-		<classes>Bard, Cleric, Paladin, Paladin (Devotion), Paladin (Crown), Seeker</classes>
+		<classes>Bard, Cleric, Cleric (Order), Paladin, Paladin (Devotion), Paladin (Crown), Seeker</classes>
 		<text>You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.</text>
 		<text />
 		<text>An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.</text>
