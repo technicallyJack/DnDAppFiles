@@ -81,8 +81,8 @@
         <text/>
         <text>Spellcasting Ability</text>
         <text>Intelligence is your spellcasting ability for your seeker Spells, since your cunning allows you to fully control the arcane energies. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a seeker spell you cast and when making an attack roll with one.</text>
-        <text>    Spell save DC = 8 + your proficiency bonus + your intelligence modifier</text>
-        <text>    Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
+        <text>Spell save DC = 8 + your proficiency bonus + your intelligence modifier</text>
+        <text>Spell attack modifier = your proficiency bonus + your Intelligence modifier</text>
       </feature>
       <feature>
         <name>Fighting Style</name>
