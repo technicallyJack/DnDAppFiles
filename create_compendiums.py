@@ -25,6 +25,7 @@ class XMLCombiner(object):
 
     def informed_parse(self, filename):
         try:
+            print filename
             return et.parse(filename)
         except:
             print (filename)
@@ -73,7 +74,7 @@ def create_category_compendiums():
     :return: list of output paths.
 
     """
-    categories = ['Items', 'Character', 'Spells', 'Bestiary']
+    categories = ['Items', 'Character', 'Spells', 'Bestiary', 'Homebrew']
     output_paths = []
     for category in categories:
         filenames = glob('%s/*.xml' % category)

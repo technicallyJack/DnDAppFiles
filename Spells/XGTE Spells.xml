@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<!--Spell Attack rolls assume PROF added to roll, not applicable for Ranged while engaged in Melee range-->
+<!--replaced ":" as intro to list with ".", and as in-line text with " - "-->
+  <spell>
+    <name>Abi-Dalzim's Horrid Wilting</name>
+    <level>8</level>
+    <school>N</school>
+    <time>1 action</time>
+    <range>150 feet</range>
+    <components>V, S, M (a bit of sponge)</components>
+    <duration>Instantaneous</duration>
+    <classes>Sorcerer, Wizard</classes>
+    <text>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.</text>
+    <text>Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.</text>
+    <text>Source: XGTE pg. 150</text>
+  </spell>
+  <spell>
+    <name>Catnap</name>
+    <level>3</level>
+    <school>EN</school>
+    <time>1 action</time>
+    <range>30 feet</range>
+    <components>S, M (a pinch of sand)</components>
+    <duration>10 minutes</duration>
+    <classes>Bard, Seeker, Sorcerer, Wizard</classes>
+    <text>You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.</text>
+    <text>Source: XGTE pg. 151</text>
+  </spell>
+  <spell>
+    <name>Enervation</name>
+    <level>5</level>
+    <school>N</school>
+    <time>1 action</time>
+    <range>60 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <classes>Seeker (Occultist), Sorcerer, Warlock, Wizard</classes>
+    <text>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell's range, or if the target has total cover from you. Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</text>
+    <text>Source: XGTE pg. 155</text>
+  </spell>
+  <spell>
+    <name>Enemies Abound</name>
+    <level>3</level>
+    <school>EN</school>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 minute</duration>
+    <classes>Bard, Seeker (Secret Broker), Sorcerer, Warlock, Wizard</classes>
+    <text>Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</text>
+    <text>Source: XGTE pg. 155</text>
+  </spell>
+  <spell>
+    <name>Erupting Earth</name>
+    <level>3</level>
+    <school>T</school>
+    <time>1 action</time>
+    <range>120 feet</range>
+    <components>V, S, M (a piece of obsidian)</components>
+    <duration>Instantaneous</duration>
+    <classes>Druid, Seeker (Bloodhound), Sorcerer, Wizard</classes>
+    <text>Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</text>
+    <text>Source: XGTE pg. 155</text>
+  </spell>
+  <spell>
+    <name>Skill Empowerment</name>
+    <level>5</level>
+    <school>T</school>
+    <time>1 action</time>
+    <range>Touch</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 hour</duration>
+    <classes>Artificer, Bard, Seeker (Relic Hunter), Sorcerer, Wizard</classes>
+    <text>Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.</text>
+    <text>You must choose a skill in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</text>
+    <text>Source: XGTE pg. 165</text>
+  </spell>
+  <spell>
+    <name>Skywrite</name>
+    <level>2</level>
+    <school>T</school>
+    <time>1 action</time>
+    <range>Sight</range>
+    <components>V, S</components>
+    <duration>Concentration, up to 1 hour</duration>
+    <classes>Bard, Druid, Seeker, Wizard</classes>
+    <text>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</text>
+    <text>Source: XGTE pg. 165</text>
+  </spell>
+  <spell>
+    <name>Tiny Servant</name>
+    <level>3</level>
+    <school>T</school>
+    <time>1 minute</time>
+    <range>Touch</range>
+    <components>V, S</components>
+    <duration>8 hours</duration>
+    <classes>Seeker, Wizard</classes>
+    <text>You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the stat block for its statistics.</text>
+    <text>As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.</text>
+    <text>When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</text>
+    <text />
+    <text>At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd</text>
+    <text>Source: XGTE pg. 169</text>
+  </spell>
+</compendium>
