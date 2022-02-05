@@ -809,12 +809,12 @@
         <text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
         <text/>
         <text>If your DM allows the use of feats, you may instead take a feat.</text>
-        <text>Source: PHB pg. 59</text>
+        <text>Source: Player's Handbook pg. 59</text>
       </feature>
       <feature optional="YES">
         <name>Cantrip Versatility</name>
         <text>Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.</text>
-        <text>Source: Tasha's pg. 31</text>
+        <text>Source: Tasha's Cauldron of Everything pg. 31</text>
       </feature>
     </autolevel>
     
@@ -823,7 +823,7 @@
       <feature>
         <name>Destroy Undead (CR 1/2)</name>
         <text>Starting at 5th level, when an undead of CR 1/2 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed.</text>
-        <text>Source: PHB pg. 59</text>
+        <text>Source: Player's Handbook pg. 59</text>
       </feature>
     </autolevel>
 
@@ -1000,12 +1000,12 @@
       <feature>
           <name>Channel Divinity (2/rest)</name>
           <text>Beginning at 6th level, you can use your Channel Divinity twice between rests.</text>
-          <text>Source: PHB pg. 58-59</text>
+          <text>Source: Player's Handbook pg. 58-59</text>
       </feature>
       <feature optional="YES">
         <name>Harness Divine Power Improvement</name>
         <text>You may now expend two uses of your Channel Divinity to fuel your spells.</text>
-        <text>Source: Tasha's pg. 30-31</text>
+        <text>Source: Tasha's Cauldron of Everything pg. 30-31</text>
       </feature>
     </autolevel>
 

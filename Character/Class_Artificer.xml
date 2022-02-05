@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+  <class>
+    <name>Artificer</name>
+    <hd>8</hd>
+    <proficiency>Constitution, Intelligence</proficiency>
+    <spellAbility>Intelligence</spellAbility>
+    <autolevel level="1"> <slots>2,2,0,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="2"> <slots>2,2,0,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="3"> <slots>2,3,0,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="4"> <slots>2,3,0,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="5"> <slots>2,4,2,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="6"> <slots>2,4,2,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="7"> <slots>2,4,3,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="8"> <slots>2,4,3,0,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="9"> <slots>2,4,3,2,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="10"><slots>3,4,3,2,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="11"><slots>3,4,3,3,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="12"><slots>3,4,3,3,0,0,0,0,0,0</slots></autolevel>
+    <autolevel level="13"><slots>3,4,3,3,1,0,0,0,0,0</slots></autolevel>
+    <autolevel level="14"><slots>4,4,3,3,1,0,0,0,0,0</slots></autolevel>
+    <autolevel level="15"><slots>4,4,3,3,2,0,0,0,0,0</slots></autolevel>
+    <autolevel level="16"><slots>4,4,3,3,2,0,0,0,0,0</slots></autolevel>
+    <autolevel level="17"><slots>4,4,3,3,3,1,0,0,0,0</slots></autolevel>
+    <autolevel level="18"><slots>4,4,3,3,3,1,0,0,0,0</slots></autolevel>
+    <autolevel level="19"><slots>4,4,3,3,3,2,0,0,0,0</slots></autolevel>
+    <autolevel level="20"><slots>4,4,3,3,3,2,0,0,0,0</slots></autolevel>
+  </class>
+</compendium>
